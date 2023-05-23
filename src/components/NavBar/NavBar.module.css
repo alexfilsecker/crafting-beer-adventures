@@ -27,7 +27,7 @@ header {
 .header__links {
   color: white;
   background-color: none;
-  transition: all 1s;
+  transition: all 0.15s;
   text-decoration: none;
   padding: 10px 0px;
 }
@@ -44,6 +44,15 @@ header {
   background-color: green;
   border-radius: 5px;
   padding: 10px 20px;
+}
+
+.header__links--login-button:hover {
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+.header__links--login-button:active {
+  opacity: 0.5;
 }
 
 .header__icon {
