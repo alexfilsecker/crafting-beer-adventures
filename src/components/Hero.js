@@ -3,11 +3,11 @@ import logo from "../assets/logo.png";
 
 export default function Hero() {
   return (
-    <div className="py-7">
-      <div className="container">
+    <div className="py-7 text-white">
+      <div className="w-full px-3">
         <div className="flex justify-center items-center gap-10 sm:flex-wrap lg:flex-nowrap">
           <div className="flex-auto">
-            <h1 className="  text-4xl pb-4 leading-relaxed sm:text-center lg:text-left">
+            <h1 className="text-4xl pb-4 leading-relaxed sm:text-center lg:text-left">
               Las Chelas mas ricas que la tula de tu vieja
             </h1>
 

@@ -1,18 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-* {
-  box-sizing: border-box;
-  color: white;
-  font-weight: 700;
-  line-height: 1.5rem;
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
 }

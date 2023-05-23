@@ -1,12 +1,18 @@
-import NavBar from "./components/NavBar";
+import { useState } from "react";
+import { showSideBarContext } from "./context/showSideBarContext";
+import NavBar from "./components/NavBar/NavBar";
 import Hero from "./components/Hero";
 
 function App() {
+  const [showSideBar, setShowSideBar] = useState(false);
+
   return (
-    <div className="bg-fondo1">
-      <NavBar />
-      <Hero />
-    </div>
+    <>
+      <showSideBarContext.Provider value={{ showSideBar, setShowSideBar }}>
+        <NavBar />
+        <Hero />
+      </showSideBarContext.Provider>
+    </>
   );
 }
 
