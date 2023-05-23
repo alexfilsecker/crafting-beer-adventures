@@ -26,9 +26,13 @@ export default function NavBar() {
             onClick={() => setShowSideBar(true)}
             className={`${css["header__icon"]} ${css["header__icon--oversize"]}`}
           />
-          <a href="/">
-            <CgProfile className={`${css["header__icon"]} `} />
-          </a>
+          <div className={css["header__container"]}>
+            <a href="/">
+              <CgProfile
+                className={`${css["header__icon"]} ${css["header__icon--profile"]}`}
+              />
+            </a>
+          </div>
         </div>
       </header>
       <SideBar />

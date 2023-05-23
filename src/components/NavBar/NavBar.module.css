@@ -63,6 +63,11 @@ header {
   }
 }
 
+/* This is used to move the icon a bit down */
+.header__icon--profile {
+  padding-top: 7px;
+}
+
 .side-bar {
   position: fixed;
   z-index: 999;
